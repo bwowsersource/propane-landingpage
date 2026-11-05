@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Minion — the open-source model runtime behind Propane</title>
+<meta name="description" content="Minion is an open-source model runtime. It packages local speech, vision, language, image and video models so you can achieve the same voice, vision and generation capabilities anywhere — a desktop, a server, or your own product.">
+<link rel="icon" href="./logo.svg" type="image/svg+xml">
+<script src="./vendor/react.js"></script>
+<script src="./vendor/react-dom.js"></script>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500..800&amp;family=Instrument+Sans:wght@400;500;600&amp;display=swap">
+<link rel="stylesheet" href="./site.css">
+</helmet>
+<div style="background:#1c0a10;color:#f7ebee;font-family:'Instrument Sans',system-ui,sans-serif;line-height:1.5;overflow-x:clip">
+
+<div class="hdr">
+<a href="./index.html" class="brand"><img src="./logo.svg" alt="" style="width:38px;height:38px;margin:-4px -5px"><span style="display:flex;align-items:baseline;gap:10px;white-space:nowrap"><span style="font-size:28px;line-height:1">Propane</span><span style="font-size:20px;font-weight:500;line-height:1;letter-spacing:0;color:#9c7480;opacity:.9;text-shadow:0 1px 2px rgba(0,0,0,.55)">for Desktop</span></span></a>
+<nav class="nav">
+<a class="navlink" href="./desktop.html">Desktop</a>
+<a class="navlink" href="./voice.html">Voice</a>
+<a class="navlink" href="./minion.html" aria-current="page">Minion</a>
+</nav>
+<a class="btn" href="https://tally.so/r/xVrK79" style="background:#3a1422;color:#f7ebee;min-height:44px;font-size:16px">Get early access</a>
+</div>
+
+<section style="padding:clamp(32px,6vw,88px) clamp(20px,5.5vw,80px) clamp(48px,7vw,96px)">
+<div style="display:flex;gap:56px;flex-wrap:wrap;align-items:center">
+<div style="flex:1 1 440px;max-width:640px">
+<div class="eyebrow">Minion</div>
+<h1 class="h1">The open model runtime.</h1>
+<p class="lead">Minion is an open-source model runtime. It lets you achieve the same voice, vision and generation anywhere — on a desktop, a server, or inside your own product.</p>
+<div style="margin-top:36px;display:flex;gap:16px;align-items:center;flex-wrap:wrap"><a class="btn" href="https://tally.so/r/xVrK79" style="background:{{accent}};color:#1c0a10">Get early access</a><a class="link2" href="https://github.com/bwowsersource">View on GitHub</a></div>
+</div>
+<div style="flex:1 1 440px;min-width:0">
+<div style="display:flex;flex-direction:column;gap:14px">
+<div class="layer"><span>Speech</span><span class="muted" style="font-size:14px">recognise &amp; synthesise</span></div>
+<div class="layer"><span>Vision</span><span class="muted" style="font-size:14px">see the screen</span></div>
+<div class="layer"><span>Model</span><span class="muted" style="font-size:14px">local language model</span></div>
+<div class="layer"><span>Image</span><span class="muted" style="font-size:14px">generate pictures</span></div>
+<div class="layer"><span>Video</span><span class="muted" style="font-size:14px">generate motion</span></div>
+</div>
+</div>
+</div>
+</section>
+
+<section class="sec" style="background:#240d15">
+<div style="max-width:760px">
+<div class="eyebrow">What's inside</div>
+<h2 class="h2">Everything a computer needs to understand you — and to create.</h2>
+<p class="lead">Minion packages the models and the plumbing around them into one open runtime, so the app on top only has to say what it wants.</p>
+</div>
+<div style="margin-top:48px;display:flex;gap:24px;flex-wrap:wrap">
+<div class="card" style="flex:1 1 300px"><div class="ico"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3a3 3 0 0 1 3 3v6a3 3 0 0 1-6 0V6a3 3 0 0 1 3-3z"></path><path d="M5 11a7 7 0 0 0 14 0M12 18v3"></path></svg></div><div class="h3">Speech</div><p class="muted" style="margin:12px 0 0;font-size:17px">Speech to text, text to speech and voice cloning — running on the machine, not a server.</p></div>
+<div class="card" style="flex:1 1 300px"><div class="ico"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 12s4-7 10-7 10 7 10 7-4 7-10 7S2 12 2 12z"></path><circle cx="12" cy="12" r="3"></circle></svg></div><div class="h3">Vision</div><p class="muted" style="margin:12px 0 0;font-size:17px">Read what is on screen — windows, text and controls — so the assistant can act on it.</p></div>
+<div class="card" style="flex:1 1 300px"><div class="ico"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l9 5-9 5-9-5 9-5z"></path><path d="M3 13l9 5 9-5"></path></svg></div><div class="h3">Model</div><p class="muted" style="margin:12px 0 0;font-size:17px">A bundled local language model for reasoning, drafting and turning intent into a plan.</p></div>
+<div class="card" style="flex:1 1 300px"><div class="ico"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2"></rect><circle cx="8.5" cy="9.5" r="1.5"></circle><path d="M21 16l-5-5-9 9"></path></svg></div><div class="h3">Image</div><p class="muted" style="margin:12px 0 0;font-size:17px">Generate pictures from a prompt — on the machine, with no cloud round trip.</p></div>
+<div class="card" style="flex:1 1 300px"><div class="ico"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="6" width="13" height="12" rx="2"></rect><path d="M16 10l5-3v10l-5-3z"></path></svg></div><div class="h3">Video</div><p class="muted" style="margin:12px 0 0;font-size:17px">Generate and edit short video locally, then drop it straight into your workspace.</p></div>
+<div class="card" style="flex:1 1 300px"><div class="ico"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6L9 17l-5-5"></path></svg></div><div class="h3">Open</div><p class="muted" style="margin:12px 0 0;font-size:17px">The stack is open source. Read it, fork it, ship it inside your own desktop app.</p></div>
+</div>
+</section>
+
+<section class="sec">
+<div style="display:flex;gap:56px;flex-wrap:wrap;align-items:center">
+<div style="flex:1 1 380px;max-width:520px">
+<div class="eyebrow">Layers</div>
+<h2 class="h2">From the microphone to the picture.</h2>
+<p class="muted" style="margin:24px 0 0;font-size:19px">Each layer does one thing and hands off to the next. You can use the whole stack, or pull out the one piece you need.</p>
+<p class="muted" style="margin:16px 0 0;font-size:19px">Because the layers are separate, a voice assistant, a screen reader and an image generator all run on the same foundation.</p>
+</div>
+<div style="flex:1 1 380px;display:flex;flex-direction:column;gap:14px">
+<div class="layer"><span>Input</span><span class="muted" style="font-size:14px">voice · screen · files</span></div>
+<div class="layer"><span>Understanding</span><span class="muted" style="font-size:14px">speech to text · vision</span></div>
+<div class="layer"><span>Reasoning</span><span class="muted" style="font-size:14px">local language model</span></div>
+<div class="layer"><span>Generation</span><span class="muted" style="font-size:14px">images · video</span></div>
+</div>
+</div>
+</section>
+
+<section class="sec" style="background:#240d15">
+<div style="max-width:760px">
+<div class="eyebrow">Local-first</div>
+<h2 class="h2">Runs on your machine, stays on your machine.</h2>
+<p class="lead">Minion is built for home computers and desktops, not a data centre. Models download once and run locally, so your voice and your screen never have to leave the device.</p>
+</div>
+<div style="margin-top:48px;display:flex;gap:24px;flex-wrap:wrap">
+<div class="card" style="flex:1 1 300px"><div class="ico"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M13 2L4 14h7l-1 8 9-12h-7l1-8z"></path></svg></div><div class="h3">No round trip</div><p class="muted" style="margin:12px 0 0;font-size:17px">Speech, vision, language, image and video all run on-device, so results come back at the speed of your hardware.</p></div>
+<div class="card" style="flex:1 1 300px"><div class="ico"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="10" width="16" height="10" rx="2"></rect><path d="M8 10V7a4 4 0 0 1 8 0v3"></path></svg></div><div class="h3">Private by default</div><p class="muted" style="margin:12px 0 0;font-size:17px">Your microphone and screen stay local unless you deliberately connect something.</p></div>
+<div class="card" style="flex:1 1 300px"><div class="ico"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l9 5-9 5-9-5 9-5z"></path><path d="M3 13l9 5 9-5"></path></svg></div><div class="h3">Swap the model</div><p class="muted" style="margin:12px 0 0;font-size:17px">Use the bundled model or bring your own. The stack underneath does not change.</p></div>
+</div>
+</section>
+
+<section class="sec">
+<div style="max-width:760px">
+<div class="eyebrow">For builders</div>
+<h2 class="h2">Use it in your own app.</h2>
+<p class="lead">Minion is a runtime, not just Propane's engine. Use it anywhere you need a model to listen, see, understand or create — a desktop app, a server, or your own product.</p>
+<div style="margin-top:32px;display:flex;gap:16px;flex-wrap:wrap"><a class="btn" href="https://tally.so/r/xVrK79" style="background:{{accent}};color:#1c0a10">Get early access</a><a class="btn" href="https://github.com/bwowsersource" style="background:#3a1422;color:#f7ebee">Browse the org</a></div>
+</div>
+</section>
+
+<section class="sec" style="background:#240d15">
+<div style="background:#3a1422;border-radius:32px;padding:clamp(32px,6vw,88px);text-align:center">
+<h2 class="h2" style="margin:0 auto;max-width:760px">Build on the open stack.</h2>
+<p style="margin:20px auto 0;max-width:520px;font-size:19px;color:#e0c6cd">Minion is open source. Get early access to the app built on it.</p>
+<div style="margin-top:36px;display:flex;gap:16px;justify-content:center;flex-wrap:wrap"><a class="btn" href="https://tally.so/r/xVrK79" style="background:{{accent}};color:#1c0a10">Get early access</a><a class="btn" href="https://github.com/bwowsersource" style="background:#2b1019;color:#f7ebee">View on GitHub</a></div>
+</div>
+</section>
+
+<div class="ftr">
+<div style="max-width:320px">
+<div class="brand" style="font-size:20px">Propane</div>
+<p class="muted" style="margin:12px 0 0;font-size:15px">An AI GUI runtime for home computers and desktops. It generates the tool you need.</p>
+</div>
+<div style="display:flex;gap:40px 72px;flex-wrap:wrap">
+<div class="ftrcol"><div class="ftrh">Product</div><a class="navlink" href="./desktop.html">Propane Desktop</a><a class="navlink" href="./voice.html">Propane Voice</a><a class="navlink" href="./minion.html">Minion</a></div>
+<div class="ftrcol"><div class="ftrh">Get started</div><a class="navlink" href="https://tally.so/r/xVrK79">Early access</a><a class="navlink" href="https://github.com/bwowsersource">GitHub</a></div>
+</div>
+</div>
+
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"accent":{"editor":"color","default":"#ff7f5f","options":["#ff7f5f","#f2b45c","#e8879c"]}}'>
+class Component extends DCLogic {
+renderVals() {
+return { accent: this.props.accent ?? '#ff7f5f' };
+}
+}
+</script>
+</body>
+</html>

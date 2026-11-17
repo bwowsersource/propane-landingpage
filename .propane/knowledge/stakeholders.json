@@ -1,0 +1,27 @@
+[
+  {
+    "key": "user",
+    "who": "",
+    "goals": [],
+    "work": "",
+    "vocabulary": [],
+    "evidence": 0,
+    "lastSeen": 0
+  },
+  {
+    "key": "user.ui.notes-widget",
+    "who": "A user managing a web page layout",
+    "goals": [
+      "Add another notes widget to the page"
+    ],
+    "work": "Adding and arranging UI widgets",
+    "vocabulary": [
+      "widget",
+      "layout",
+      "notes",
+      "arrange"
+    ],
+    "evidence": 1,
+    "lastSeen": 1794766804714
+  }
+]

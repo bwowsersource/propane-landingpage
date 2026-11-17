@@ -1,0 +1,19 @@
+{
+  "path": "general.notes",
+  "id": "page_resize",
+  "kind": "function",
+  "aliases": [],
+  "node": {
+    "name": "page_resize",
+    "value": "\"page_resize\" is a function used to make the notes widget bigger or smaller."
+  },
+  "sources": [
+    "81494fea-f277-41e9-9936-bf25db73c8eb"
+  ],
+  "stakeholders": [
+    "user.ui.notes-widget"
+  ],
+  "mentions": 1,
+  "firstSeen": 1794766804714,
+  "lastSeen": 1794766804714
+}

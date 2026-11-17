@@ -1,0 +1,19 @@
+{
+  "path": "general",
+  "id": "notes",
+  "kind": "other",
+  "aliases": [],
+  "node": {
+    "name": "notes",
+    "value": "\"notes\" is a widget that can be added to a page, and it can be resized using the page_resize command."
+  },
+  "sources": [
+    "81494fea-f277-41e9-9936-bf25db73c8eb"
+  ],
+  "stakeholders": [
+    "user.ui.notes-widget"
+  ],
+  "mentions": 1,
+  "firstSeen": 1794766804714,
+  "lastSeen": 1794766804714
+}

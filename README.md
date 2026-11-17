@@ -16,80 +16,76 @@ Every page links to the others from the top nav and the footer. The pricing
 page was removed from the public site while the model below is still being
 decided.
 
-## Proposed pricing model (not published)
+## Suggested pricing model (not published)
 
-> The pricing page and all prices were **removed from the public pages** while
-the numbers are still being decided. This is the working model.
+> **Suggested.** The tiers below are an inferred working model, not a final
+> price list. The pricing page and all prices were **removed from the public
+> pages** while the numbers are still being decided.
 
 ### Tiers
 
 | Tier | Price | For |
 |------|-------|-----|
-| Community | $0 | Up to three computers and five devices, with a monthly hosted-token budget |
-| Pro | $15/mo | One person who wants Propane everywhere |
-| Studio | $29/user/mo | Teams that build tools together |
-| Enterprise | Custom | Organisations that run Propane themselves |
+| Free | $0 | Personal use |
+| Pro | $30/mo | One person who wants to publish and ship apps |
+| Studio | $255/mo · 25 users ($10/user) | Teams that build apps together |
+| Enterprise | $55/user/mo | Organisations that need their own cloud |
 
 ### Feature breakdown
 
-**Community — $0**
+**Free — $0**
 
-- 3 computers
+- Free for personal use
 - Unlimited local tool decks
 - Local models via Minion
-- Mobile remote access, 5 devices
-- 2M hosted tokens / month *(placeholder)*
-- Bonus tokens when you share compute
-- Community data helps train the models
+- Mobile remote access
 
-**Pro — $15/mo**
+**Pro — $30/mo**
 
-- Unlimited computers
-- 10M hosted tokens / month *(placeholder)*
-- Your data is never used for training
-- Priority email support
-- Mobile remote access, all devices
-- Cloud sync of tool decks
+- 300 million token credits
+- Private knowledge-base (kbase) registry
+- Publish apps
+- Export signed builds
 
-**Studio — $29/user/mo**
+**Studio — $255/mo**
 
-- Everything in Pro, plus:
-- Pooled team token budget
+- Everything in Pro, for 25 users
+- Additional users at $10/user
 - Shared workspaces
 - Team tool-deck library
 - SSO & audit log
 
-**Enterprise — Custom**
+**Enterprise — $55/user/mo**
 
 - Everything in Studio, plus:
+- Includes own cloud license
 - Self-hosted runtime
 - Private model gateway
 - SAML / SCIM & SLA
 
 ### Comparison
 
-| Feature | Community | Pro | Studio | Enterprise |
-|---------|-----------|-----|--------|------------|
-| Computers | 3 | Unlimited | Unlimited | Unlimited |
+| Feature | Free | Pro | Studio | Enterprise |
+|---------|------|-----|--------|------------|
+| Seats | 1 | 1 | 25 included ($10/user after) | Per user ($55/user/mo) |
 | Local tool decks | Unlimited | Unlimited | Unlimited | Unlimited |
-| Mobile remote access | 5 devices | All devices | All devices | All devices |
-| Hosted token budget | 2M / mo | 10M / mo | Pooled for the team | Custom |
-| Share compute, earn bonus tokens | Opt-in | Opt-in | Opt-in | Opt-in |
-| Data used to train models | Yes | No | No | No |
-| Cloud sync | — | Included | Included | Included |
+| Local models via Minion | Included | Included | Included | Included |
+| Hosted token credits | — | 300M | Pooled for the team (TBD) | Custom |
+| Private kbase registry | — | Included | Included | Included |
+| Publish apps | — | Included | Included | Included |
+| Export signed builds | — | Included | Included | Included |
 | Shared workspaces & team library | — | — | Included | Included |
 | SSO & audit log | — | — | Included | Included |
+| Own cloud license | — | — | — | Included |
 | Self-hosted runtime | — | — | — | Included |
 | Support | Community | Email | Priority | Dedicated |
 
-### Community compute pool
+### Token credits
 
-Every Community account includes a monthly budget of hosted tokens for models
-too large to run locally. The pool is refilled by volunteers — customers who
-opt in to share their computer's idle time and earn bonus tokens in return.
-Sharing is always pausable and never runs while the machine is in use.
-Community usage also helps train the models, which is part of what keeps it
-free; Pro and above never train on customer data.
+Paid plans include hosted token credits for models too large to run locally —
+Pro includes **300 million**. Free is local-first and has no hosted credit
+budget in this model. Credits and any compute-sharing arrangement on top of
+them are still open questions (see below).
 
 ### Separate pricing
 
@@ -98,9 +94,14 @@ and implementations). Minion stays open source. -->
 
 ### Open questions / placeholders
 
-- Token budgets (2M Community / 10M Pro) and the sharing bonus rate are placeholders.
-- Whether Community training is automatic or opt-in is undecided.
-- Studio's pooled token figure is unspecified.
+- Whether Free includes any hosted token credits, or is local-only.
+- Studio's pooled token figure, and whether the $10/user rate applies only to
+  seats beyond the 25 included.
+- Enterprise's minimum seat count and whether the own-cloud license is per
+  organisation or per user.
+- Whether the compute-sharing bonus still exists on top of token credits.
+- Whether any tier's data is used to train models (the old model said Free was,
+  Pro and above were not).
 
 ## How it is built
 

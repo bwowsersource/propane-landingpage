@@ -1,0 +1,68 @@
+[
+  {
+    "key": "user",
+    "who": "",
+    "goals": [],
+    "work": "",
+    "vocabulary": [],
+    "evidence": 0,
+    "lastSeen": 0
+  },
+  {
+    "key": "designer",
+    "who": "A designer who creates the visual assets and layout for the marketing site.",
+    "goals": [
+      "Ensure the site looks professional and aligns with the brand identity.",
+      "Improve user experience through intuitive navigation and clear product descriptions."
+    ],
+    "work": "Designing and updating the site's visual elements, including CSS styles and component designs.",
+    "vocabulary": [
+      "UI/UX",
+      "design system",
+      "brand guidelines",
+      "responsive design",
+      "color palette",
+      "typography"
+    ],
+    "evidence": 0,
+    "lastSeen": 0
+  },
+  {
+    "key": "developer",
+    "who": "A developer who builds and maintains the static marketing site.",
+    "goals": [
+      "Deliver a fast-loading, error-free site.",
+      "Implement new features like the pricing page when ready."
+    ],
+    "work": "Implementing the design components and ensuring the site functions correctly on GitHub Pages.",
+    "vocabulary": [
+      "HTML",
+      "CSS",
+      "GitHub Pages",
+      "responsive design",
+      "performance optimization",
+      "version control"
+    ],
+    "evidence": 0,
+    "lastSeen": 0
+  },
+  {
+    "key": "writer",
+    "who": "A writer who crafts the content for the marketing site.",
+    "goals": [
+      "Communicate the value proposition of each product clearly.",
+      "Ensure the tone is consistent and engaging across all pages."
+    ],
+    "work": "Writing and editing the text for the Home, Propane Desktop, Propane Voice, and Minion pages.",
+    "vocabulary": [
+      "copywriting",
+      "product description",
+      "user experience",
+      "brand voice",
+      "call to action",
+      "SEO"
+    ],
+    "evidence": 0,
+    "lastSeen": 0
+  }
+]

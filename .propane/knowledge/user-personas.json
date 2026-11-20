@@ -9,58 +9,73 @@
     "lastSeen": 0
   },
   {
-    "key": "designer",
-    "who": "A designer who creates the visual assets and layout for the marketing site.",
+    "key": "design.ui",
+    "who": "A frontend developer responsible for the visual presentation and interactivity of the static marketing site.",
     "goals": [
-      "Ensure the site looks professional and aligns with the brand identity.",
-      "Improve user experience through intuitive navigation and clear product descriptions."
+      "Ensure consistent branding and visual hierarchy across all landing pages.",
+      "Optimize page load times and performance for a seamless user experience.",
+      "Implement responsive design to accommodate various screen sizes and devices."
     ],
-    "work": "Designing and updating the site's visual elements, including CSS styles and component designs.",
+    "work": "Implementing and maintaining the design system, including component rendering, CSS styling, and asset management to ensure a consistent and responsive user experience across all product pages.",
     "vocabulary": [
-      "UI/UX",
-      "design system",
-      "brand guidelines",
+      "design components",
       "responsive design",
-      "color palette",
-      "typography"
-    ],
-    "evidence": 0,
-    "lastSeen": 0
-  },
-  {
-    "key": "developer",
-    "who": "A developer who builds and maintains the static marketing site.",
-    "goals": [
-      "Deliver a fast-loading, error-free site.",
-      "Implement new features like the pricing page when ready."
-    ],
-    "work": "Implementing the design components and ensuring the site functions correctly on GitHub Pages.",
-    "vocabulary": [
-      "HTML",
       "CSS",
-      "GitHub Pages",
-      "responsive design",
-      "performance optimization",
-      "version control"
+      "assets",
+      "performance",
+      "branding",
+      "user experience",
+      "landing pages",
+      "product pages",
+      "navigation"
     ],
     "evidence": 0,
     "lastSeen": 0
   },
   {
-    "key": "writer",
-    "who": "A writer who crafts the content for the marketing site.",
+    "key": "docs.content",
+    "who": "A technical writer or content specialist focused on creating and maintaining the textual content for the Propane product family.",
     "goals": [
-      "Communicate the value proposition of each product clearly.",
-      "Ensure the tone is consistent and engaging across all pages."
+      "Communicate the value proposition of each product clearly and concisely.",
+      "Ensure all content is up-to-date and reflects the latest features and capabilities.",
+      "Tailor messaging to resonate with different target audiences and use cases."
     ],
-    "work": "Writing and editing the text for the Home, Propane Desktop, Propane Voice, and Minion pages.",
+    "work": "Drafting, editing, and reviewing product descriptions, feature highlights, and user guides to ensure clarity, accuracy, and alignment with the company's messaging.",
     "vocabulary": [
-      "copywriting",
-      "product description",
-      "user experience",
-      "brand voice",
-      "call to action",
-      "SEO"
+      "product descriptions",
+      "feature highlights",
+      "user guides",
+      "value proposition",
+      "target audiences",
+      "messaging",
+      "clarity",
+      "accuracy",
+      "product family",
+      "marketing site"
+    ],
+    "evidence": 0,
+    "lastSeen": 0
+  },
+  {
+    "key": "ops.deployment",
+    "who": "An operations engineer or DevOps specialist managing the deployment and maintenance of the Propane static marketing site on GitHub Pages.",
+    "goals": [
+      "Ensure high availability and reliability of the marketing site.",
+      "Automate deployment processes to reduce manual intervention and errors.",
+      "Monitor site performance and uptime to maintain a positive user experience."
+    ],
+    "work": "Configuring and automating the deployment pipeline, monitoring site availability, and troubleshooting any issues related to the hosting environment or integration with the Propane software ecosystem.",
+    "vocabulary": [
+      "GitHub Pages",
+      "deployment pipeline",
+      "site availability",
+      "monitoring",
+      "troubleshooting",
+      "hosting environment",
+      "Propane software ecosystem",
+      "uptime",
+      "performance",
+      "automation"
     ],
     "evidence": 0,
     "lastSeen": 0

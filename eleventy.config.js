@@ -13,12 +13,13 @@ export default function (eleventyConfig) {
     'support.js': 'support.js',
     'logo.svg': 'logo.svg',
     'CNAME': 'CNAME',
+    'src/.nojekyll': '.nojekyll',
     'vendor': 'vendor',
     'assets': 'assets',
   });
 
   return {
-    dir: { input: 'src', includes: '_includes' },
+    dir: { input: 'src', output: 'docs', includes: '_includes' },
     templateFormats: ['html'],
     htmlTemplateEngine: 'njk',
   };

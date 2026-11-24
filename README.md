@@ -140,12 +140,12 @@ The site is built with [Eleventy](https://www.11ty.dev/). Edit the sources in `s
 ```sh
 npm install
 npm start        # dev server with live reload
-npm run build    # writes the site to _site/
+npm run build    # writes the site to docs/
 ```
 
-- `src/*.html` — the pages. Shared chrome is pulled in with `{% include "header.njk" %}` and `{% include "footer.njk" %}`.
+- `src/*.html` — the pages. Shared chrome is pulled in with the `include` tag (`header.njk`, `footer.njk`).
 - `src/_includes/` — the shared header and footer (including the unlisted Voice link).
-- `eleventy.config.js` — config, plus the static files copied through (`site.css`, `support.js`, `logo.svg`, `vendor/`, `assets/`, `CNAME`). Add new static files there.
+- `eleventy.config.js` — config, plus the static files copied through (`site.css`, `support.js`, `logo.svg`, `vendor/`, `assets/`, `CNAME`, `.nojekyll`). Add new static files there.
 - Nunjucks variables use `[[ ]]`, not `{{ }}`, because the pages use `{{accent}}` for their own runtime.
 
-`_site/` is not committed. GitHub Actions builds and deploys it on every push to `base` (`.github/workflows/pages.yml`). In the repo's Pages settings, the source must be set to **GitHub Actions**.
+`docs/` is the generated site and **is committed**. GitHub Pages serves it directly, with no Actions: in the repo's Pages settings, set the source to *Deploy from a branch*, branch `base`, folder `/docs`. Run `npm run build` and commit `docs/` along with your changes.

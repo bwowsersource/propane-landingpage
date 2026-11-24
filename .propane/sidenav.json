@@ -1,6 +1,7 @@
 {
   "collapsed": {
-    "main-page/files": false
+    "main-page/files": false,
+    "sidebar/workspaces": false
   },
   "state": {}
 }

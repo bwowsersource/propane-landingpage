@@ -132,3 +132,20 @@ Serve the folder and open a page — some browsers block the scripts over
 python3 -m http.server 8000
 # then open http://localhost:8000/
 ```
+
+## Editing the site
+
+The site is built with [Eleventy](https://www.11ty.dev/). Edit the sources in `src/`:
+
+```sh
+npm install
+npm start        # dev server with live reload
+npm run build    # writes the site to _site/
+```
+
+- `src/*.html` — the pages. Shared chrome is pulled in with `{% include "header.njk" %}` and `{% include "footer.njk" %}`.
+- `src/_includes/` — the shared header and footer (including the unlisted Voice link).
+- `eleventy.config.js` — config, plus the static files copied through (`site.css`, `support.js`, `logo.svg`, `vendor/`, `assets/`, `CNAME`). Add new static files there.
+- Nunjucks variables use `[[ ]]`, not `{{ }}`, because the pages use `{{accent}}` for their own runtime.
+
+`_site/` is not committed. GitHub Actions builds and deploys it on every push to `base` (`.github/workflows/pages.yml`). In the repo's Pages settings, the source must be set to **GitHub Actions**.

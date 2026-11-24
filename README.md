@@ -10,7 +10,7 @@ via GitHub Pages.
 | `index.html` | Home — the runtime and the whole product family |
 | `desktop.html` | Propane Desktop — the app |
 <!-- | `voice.html` | Propane Voice — B2B voice-automation service (service · SDK · implementations) | -->
-| `minion.html` | Minion — a collection of open-source inference engines with custom logic |
+| `opensource.html` | Open source — the projects behind Propane; Minion is the first (a collection of open-source inference engines with custom logic) |
 
 Every page links to the others from the top nav and the footer. The pricing
 page was removed from the public site while the model below is still being

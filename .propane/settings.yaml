@@ -1,1 +1,1 @@
-{frameColor: {preset: rose,custom: {light: "#d699f9",dark: "#0b140c"}},layoutFlipped: true}
+{frameColor: {preset: custom,custom: {light: "#d699f9",dark: "#0b140c"}},layoutFlipped: false}

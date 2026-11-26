@@ -10,7 +10,7 @@ via GitHub Pages.
 | `index.html` | Home — the runtime and the whole product family |
 | `desktop.html` | Propane Desktop — the app |
 <!-- | `voice.html` | Propane Voice — B2B voice-automation service (service · SDK · implementations) | -->
-| `minion.html` | Minion — a collection of open-source inference engines with custom logic |
+| `opensource.html` | Open source — the projects behind Propane; Minion is the first (a collection of open-source inference engines with custom logic) |
 
 Every page links to the others from the top nav and the footer. The pricing
 page was removed from the public site while the model below is still being
@@ -133,3 +133,20 @@ Serve the folder and open a page — some browsers block the scripts over
 python3 -m http.server 8000
 # then open http://localhost:8000/
 ```
+
+## Editing the site
+
+The site is built with [Eleventy](https://www.11ty.dev/). Edit the sources in `src/`:
+
+```sh
+npm install
+npm start        # dev server with live reload
+npm run build    # writes the site to docs/
+```
+
+- `src/*.html` — the pages. Shared chrome is pulled in with the `include` tag (`header.njk`, `footer.njk`).
+- `src/_includes/` — the shared header and footer (including the unlisted Voice link).
+- `eleventy.config.js` — config, plus the static files copied through (`site.css`, `support.js`, `logo.svg`, `vendor/`, `assets/`, `CNAME`, `.nojekyll`). Add new static files there.
+- Nunjucks variables use `[[ ]]`, not `{{ }}`, because the pages use `{{accent}}` for their own runtime.
+
+`docs/` is the generated site and **is committed**. GitHub Pages serves it directly, with no Actions: in the repo's Pages settings, set the source to *Deploy from a branch*, branch `base`, folder `/docs`. Run `npm run build` and commit `docs/` along with your changes.

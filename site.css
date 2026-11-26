@@ -46,6 +46,7 @@ a{color:inherit}
 .ftr{display:flex;justify-content:space-between;gap:32px 48px;flex-wrap:wrap;padding:56px clamp(20px,5.5vw,80px) 48px;border-top:1px solid #3a1a26;font-size:15px;color:#cdaeb7}
 .ftrcol{display:flex;flex-direction:column;gap:10px}
 .ftrh{font-weight:600;color:#f7ebee;margin-bottom:2px}
+.ftrnote{padding:0 clamp(20px,5.5vw,80px) 40px;font-size:14px;color:#cdaeb7}
 
 .code{background:#15070c;border:1px solid #3a1a26;border-radius:16px;padding:22px;overflow:auto;font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:14px;line-height:1.6;color:#e9d3d9;margin:0}
 .layer{background:#3a1422;border-radius:14px;padding:16px 18px;font-size:16px;display:flex;justify-content:space-between;gap:16px;align-items:center}
